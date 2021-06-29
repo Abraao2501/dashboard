@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/geral.css">
+    <link rel="stylesheet" href="/styles/ina.css">
+    <title>Dashboard</title>
+</head>
+<body>
+        <aside>
+            <header class="aside_header">
+                <h1>Dashboard</h1>
+            </header>
+            <section class="opt_container">
+                <div class="opt fib">
+                    <img src="/img/grafico.svg">
+                    <p>FIB</p>
+                </div>
+                <div class="opt pro">
+                    <img src="/img/grafico.svg">
+                    <p>Processos</p>
+                </div>
+                <div class="opt ina">
+                    <img src="/img/x.svg">
+                    <p>Inadimplentes</p>
+                </div>
+                <div class="opt map">
+                    <img src="/img/mapa.svg">
+                    <p>Mapa</p>
+                </div>
+            </section>
+        </aside>
+
+    <main>
+        <h1 class="titulo_main">Dashboard</h1>
+        <section class="cards">
+            <div class="card">
+                <p class="card_titulo">Obreiros Regulares</p>
+                <p class="card_numero">4516</p>
+            </div>
+            <div class="card">
+                <p class="card_titulo">Adimplentes</p>
+                <p class="card_numero">4416</p>
+            </div>
+            <div class="card">
+                <p class="card_titulo">Inadimplentes</p>
+                <p class="card_numero">100</p>
+            </div>
+            <div class="card">
+                <p class="card_titulo">Iniciados</p>
+                <p class="card_numero">12</p>
+            </div>
+        </section>
+        <section class="grafico">
+            <img src="/img/WhatsApp Image 2021-06-29 at 17.19.14.jpeg" alt="">
+        </section>
+    </main>
+    <script>
+        const fib = document.querySelector('.fib')
+        const pro = document.querySelector('.pro')
+        const ina = document.querySelector('.ina')
+        const map = document.querySelector('.map')
+
+        fib.addEventListener('click',()=>{
+            window.location = 'index.html'
+        })
+        pro.addEventListener('click',()=>{
+            window.location = 'processos.html'
+        })
+        ina.addEventListener('click',()=>{
+            window.location = 'inadimplentes.html'
+        })
+        map.addEventListener('click',()=>{
+            window.location = 'mapa.html'
+        })
+    </script>
+</body>
+</html>
