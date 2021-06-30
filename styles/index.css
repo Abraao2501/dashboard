@@ -123,14 +123,15 @@ main .cards .card p.card_numero{
 /*-------------------GRÁFICO CONTAINER-------------------*/
 .logo-grafico {
     display: flex;
+    align-items: center;
     height: 100%;
     width: 100%;
     margin-top: 4rem;
     justify-content: space-between;
 }
 .logo-grafico .logo {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 20px;
     margin-right: 4rem;
 }
@@ -140,6 +141,5 @@ main .cards .card p.card_numero{
     height: 15rem;
     border-radius: 20px;
     margin-left: 5rem;
-    margin-top: 3rem;
 }
 

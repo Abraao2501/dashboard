@@ -124,14 +124,18 @@ main .cards .card p.card_numero{
 .logo-gra {
     display: flex;
     width: 100%;
+    align-items: center;
     justify-content: space-around;
 }
 .img {
-    width: 30rem;
-    margin-top: 4rem;
+    width: 20rem;
+    height: 18rem;
+    margin-top: 5rem;
+
 }
 .logo {
-    margin-top: 4rem;
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 20px;
+    margin-right: 4rem;
 }
