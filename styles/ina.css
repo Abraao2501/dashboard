@@ -92,8 +92,8 @@ main .cards {
     height: auto;
 }
 main .cards .card {
-    width: 16rem;
-    height: 8rem;
+    width: 15rem;
+    height: 10rem;
     border-radius: 20px;
     background-color: white;
 
@@ -103,7 +103,7 @@ main .cards .card {
     justify-content: space-around;
     box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.2), 0px 12px 17px rgba(0, 0, 0, 0.14), 0px 5px 22px rgba(0, 0, 0, 0.12);
 
-    padding: .5rem;
+    padding: 1rem;
 }
 main .cards .card p.card_titulo{
     text-align: center;
