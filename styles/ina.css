@@ -133,8 +133,3 @@ main .cards .card p.card_numero{
     height: 100%;
     border-radius: 20px;
 }
-@media(ax-width: 1236px) {
-    html {
-        font-size: 13px;
-    }
-}
