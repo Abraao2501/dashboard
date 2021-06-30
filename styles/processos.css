@@ -2,6 +2,7 @@
 body {
     display: flex;
     background-color: #F7F8FC;
+    overflow: hidden;
 }
 aside {
     display: flex;
